@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/logo.title.jpg" >
+ 
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+ 
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/my-avatar.jpg" alt="Sinqobile Nzimande" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sinqobile Nzimande">Sinqobile Nzimande</h1>
+
+          <p class="title">Front End Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sinqobilenzimande11@gmail.com" class="contact-link">sinqobilenzimande11@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+27679920335" class="contact-link">+27679920335</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Johannesburg, SA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>SINQOBILE NZIMANDE</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A dedicated and motivated developer enthusiast with a passion for technology seeking opportunities to 
+            apply academic knowledge in real-world scenarios. Eager to contribute to a dynamic team, learn new 
+            skills, and gain valuable experience in the field of technology
+          </p>
+
+         
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title"> Programming Languages</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/HTML5.jpg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">HTML</h4>
+
+                <p class="service-item-text">
+                  HTML specializes in crafting the foundational structure of websites and web applications. HTML, or HyperText Markup Language, 
+                  is the standard language used to create and organize content on the web.
+                   As someone who is skilled in HTML ,I am proficient in writing clean, semantic HTML code that enables browsers to display text,
+                    images, links, and other multimedia elements. Which ensures that web pages are accessible, responsive, and well-structured.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/CSS3.jpg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CSS</h4>
+
+                <p class="service-item-text">
+                  CSS  specializes in the design and presentation aspects of web development. CSS, or Cascading Style Sheets,
+                   is the language used to control the layout, styling, and visual appearance of web pages.
+                   As someone who is skilled in CSS , I can translate the design vision into a functional and aesthetically pleasing web interface, 
+                  ensuring that it is both visually engaging and user-friendly.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/Javascript.jpg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Javascript</h4>
+
+                <p class="service-item-text">
+                  JavaScript specializes to add interactivity, dynamic behavior, and enhanced functionality to websites and web applications. 
+                  JavaScript is a core technology of the web, alongside HTML and CSS, and is widely used for client-side scripting. 
+                  It allows to build responsive, user-friendly interfaces and manage complex interactions within a web page.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/java.jpg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java</h4>
+
+                <p class="service-item-text">
+                  Java a versatile and widely-used object-oriented programming language, to build robust, scalable, and cross-platform applications. 
+                  Java is known for its "write once, run anywhere" capability, making it a go-to choice for building enterprise-level applications, 
+                  mobile apps (via Android), and large-scale systems that require stability and performance.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      
+
+
+
+
+
+
+    
+
+  
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
